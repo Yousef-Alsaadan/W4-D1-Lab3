@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W5-D3-Lab1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="logo.png" alt="logo" height="50" width="50" />
+      <a href="#">Home</a>
+    </nav>
+
+    <div class="text">
+      <h2>Is your website device friendly?</h2>
+      <input type="text" placeholder="Enter any website link" id="userLink"/>
+    </div>
+
+    <div class="boxs">
+      <div class="box">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmTJQROUpDMxIFbCtSJ5KGp1_B5iux-nKaxQ&s"
+          height="130"
+          width="130"
+        />
+
+        <h2>Iphone X</h2>
+
+        <p>375 X 812</p>
+
+        <button onclick="typeScreen(375, 812)">CHOOSE</button>
+      </div>
+
+      <div class="box">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRTQWD6vY3qyeAoTEZBK_Gvi4v9K1UVJ9Xwg&s"
+          height="130"
+          width="130"
+        />
+
+        <h2>Galaxy Note 10</h2>
+
+        <p>412 X 869</p>
+
+        <button onclick="typeScreen(412, 869)">CHOOSE</button>
+      </div>
+
+      <div class="box">
+        <img
+          src="https://cdn.alloallo.media/catalog/product/apple/ipad/ipad-pro-12-9-in-4e-generation/ipad-pro-12-9-in-4e-generation-space-gray.jpg"
+          height="130"
+          width="130"
+        />
+
+        <h2>Ipad Pro</h2>
+
+        <p>1024 X 1366</p>
+
+        <button onclick="typeScreen(1024, 1366)">CHOOSE</button>
+      </div>
+
+      <div class="box">
+        <img src="mac.png" height="130" width="130" />
+
+        <h2>Mac OSX</h2>
+
+        <p>1920 X 1080</p>
+
+        <button onclick="typeScreen(1920, 1080)">CHOOSE</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2023</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
