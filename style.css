@@ -115,5 +115,22 @@ footer{
         max-width: 100%;
         height: auto;
     }
+
+    .text h2{
+        width: 50%;
+        height: auto;
+        text-align: center;
+    }
+    .text input{
+        width: 16rem;
+    }
+
+    .boxs{
+        grid-template-columns: auto;
+    }
 }
-@media only screen and (max-width: 1200px) and (min-width: 992px) {}
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .boxs{
+        grid-template-columns: auto auto;
+    }
+}
